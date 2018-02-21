@@ -1,0 +1,15 @@
+{
+  "name": "noobnode",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node web3-deploy-compile.js"
+  },
+  "dependencies": {
+    "web3": "1.0.0-beta.30",
+    "solc": "0.4.20"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  }
+}
