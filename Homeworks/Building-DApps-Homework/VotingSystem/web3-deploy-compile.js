@@ -2,7 +2,7 @@ var Web3 = require('web3');
 var solc = require('solc');
 var fs = require('fs');
 
-var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+var web3 = new Web3("http://localhost:8545");
 
 var code = fs.readFileSync('./contracts/VotingSystem.sol').toString();
 var compiledCode = solc.compile(code);
